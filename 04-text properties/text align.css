@@ -1,0 +1,27 @@
+h1{
+    text-align:center;
+    text-decoration:dotted underline ;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family:avant garde, didot,sans-serif ;
+}
+H2{
+    text-align: right;
+    font-weight: 600;
+    text-decoration :  red overline;
+    font-family: Impact;
+}
+h3{
+    text-align: left;
+    text-decoration: wavy blue line-through;
+}
+p{
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 15px;
+  
+}
+a{
+    text-decoration: none;
+}
