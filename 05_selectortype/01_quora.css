@@ -15,7 +15,26 @@ h1 ,h3{
 .upvote{
     background-color: green;
 }
-p a{
+.post a{
     color: purple;
     background-color: yellow;
+
+}
+nav ul li a {
+    color:brown;
+}
+p + h3{
+    text-decoration: underline;
+}
+.upvote +button{
+    background-color: blueviolet;
+}
+div > input{
+    background-color: darkmagenta ;
+}
+input[type=text]{
+    color: red;
+}
+input[type=text]{ 
+    color: green;
 }
