@@ -38,3 +38,16 @@ input[type=text]{
 input[type=text]{ 
     color: green;
 }
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+button:active{
+    background-color: pink;
+    color: black;
+}
+p{
+    font-weight: bold;
+    color: #b92b27;
+}
+input[type=]
