@@ -3,9 +3,11 @@
       }
 
       p{
-        color: blue;
+        color:rgb(45, 12, 136);
+        
       }
 
       button{
-        color: black;
+        color: yellowgreen;
+        background-color: brown;
       }
