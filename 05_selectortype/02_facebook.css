@@ -2,10 +2,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 h1{
-    color: #1b74e4;
+    color: #23c70a;
 }
 #searchbtn{
-    background-color: black;
+    background-color: rgb(11, 225, 86);
 }
 .userbtn{
     background-color: aqua;
