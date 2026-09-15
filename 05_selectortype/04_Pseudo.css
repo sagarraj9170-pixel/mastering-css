@@ -1,0 +1,9 @@
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: blue;
+}
+p::selection{
+    background-color: burlywood;
+}

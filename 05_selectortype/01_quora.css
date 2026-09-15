@@ -30,22 +30,23 @@ p + h3{
 .upvote +button{
     background-color: blueviolet;
 }
-div > input{
+//child decensind
+div > input {
     background-color: darkmagenta ;
 }
 input[type=text]{
-    color: red;
+    color: rgb(49, 244, 31);
 }
 input[type=text]{ 
-    color: green;
+    color: rgb(190, 20, 237);
 }
 button:hover {
-    background-color: black;
+    background-color: rgb(175, 111, 32);
     color: whitesmoke;
 }
 button:active{
     background-color: pink;
-    color: black;
+    color: rgb(191, 7, 7);
 }
 p{
     font-weight: bold;
