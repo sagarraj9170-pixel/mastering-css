@@ -7,11 +7,9 @@ p{
 }
 button{
     color: white ;
-    background-color:burlywood;
+    background-color:blue;
 }
-body{
-    background-color: blue;
-}
+
 
 
 
@@ -29,7 +27,7 @@ h3{
     font-weight: 900;
     letter-spacing: 1.5px;
     line-height: 1.5;
-    text-decoration:line-through;
+    text-decoration: blue wavy underline;
     text-transform: uppercase;
     
 }
