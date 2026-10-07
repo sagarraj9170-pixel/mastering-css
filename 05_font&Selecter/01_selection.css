@@ -4,3 +4,14 @@
 h1,h3{
     color:green;
 }
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: red;
+    color: wheat;
+}
+.upvote{
+    background-color:green;
+    color: whitesmoke;
+}
