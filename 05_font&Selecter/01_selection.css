@@ -15,3 +15,47 @@ h1,h3{
     background-color:green;
     color: whitesmoke;
 }
+.post a{
+    color:purple;
+    background-color: yellowgreen;
+}
+nav ul li a{
+    color:pink;
+}
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button {
+    background-color: rgb(26, 6, 178);
+    color:rgb(0, 238, 255)
+}
+div > input{
+    background-color: burlywood;
+}
+input [ type="text"]{
+    color:red;
+}
+input[ type="password"]{
+    color:green;
+}
+#myId p{
+    color: green;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color: red;
+    color:black;
+}
+p:active{
+    font-weight: bold;
+    color:green;
+}
+div:nth-of-type(2n){
+    background-color:grey;
+}
+h1::first-letter{
+    color:black;
+}
