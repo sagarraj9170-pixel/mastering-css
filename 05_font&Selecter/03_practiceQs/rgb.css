@@ -1,0 +1,42 @@
+h2{
+    color: rgb(25, 45, 220);
+}
+h2{
+    color: #7700ff;
+}
+h2{
+    color: rgb(0, 17, 255);
+}
+
+
+
+
+
+p{
+    color:blue;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color: green;
+    font-family: Georgia;
+
+}
+h3{
+    text-align: center;
+    color: orange;
+
+}
+a{
+    text-decoration: hotpink;
+    color: rgb(208, 226, 43);
+
+}
+textarea{
+    color: black;
+}
+span{
+    text-decoration: underline;
+    
+}
