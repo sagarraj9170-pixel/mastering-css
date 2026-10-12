@@ -8,6 +8,11 @@ div{
 
   /*  border: 5px solid blue;*/
 
+   /* border-left-color: blue;
+    border-left-style:double ;
+    border-bottom-color:blue ;  is help to all 4 side differ color */
+
+    border-radius: 55px;;
 }
 h1{
     border-width: 2px;
