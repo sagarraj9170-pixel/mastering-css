@@ -28,6 +28,7 @@ nav ul li a{
 }
 p + h3{
     text-decoration: underline;
+    text-align: center;
 }
 .upvote + button {
     background-color: rgb(26, 6, 178);
