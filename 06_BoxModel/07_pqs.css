@@ -11,6 +11,7 @@
     width: 100px;
     background-color: pink;
     border: 2px sol black;
- border-radius: 50%;
+ border-top-left-radius: 10%;
+ border-bottom-right-radius:10% ;
  display: inline-block;   
 }
