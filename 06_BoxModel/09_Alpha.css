@@ -3,6 +3,7 @@ div{
     width: 200px;
     background-color: rgba(255, 0, 0, 0.771);
     transition-duration: 2s;
+    transition-delay: 2s;
 }
 #opacity{
     background-color:#ffa511;
@@ -11,4 +12,5 @@ div{
 div:hover{
     background-color: blue;
     border-radius: 50%;
+    transition-timing-function:step ;
 }
