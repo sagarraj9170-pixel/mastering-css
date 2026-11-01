@@ -5,7 +5,8 @@
     display: inline-block;
     margin: 10px;
     border-radius: 5px;
-    box-shadow: 2px 4px black;
+    box-shadow: 2px 2px 4px black;
+    transition: 1s;
 }
 img{
     width: 100%;
@@ -13,4 +14,8 @@ img{
 }
 desc{
     padding: 0 2px 0 2px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px blue
+     ;
 }
