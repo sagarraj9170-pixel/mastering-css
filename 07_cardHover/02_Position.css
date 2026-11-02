@@ -19,3 +19,16 @@ div{
     top: 100px;
     left: 100px;
 }
+#absolute{
+    background-color: yellow;
+    position: Absolute;
+    top: 100px;
+    left: 100px;
+}
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+
+}
