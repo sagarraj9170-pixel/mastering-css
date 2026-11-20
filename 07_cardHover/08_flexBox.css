@@ -14,13 +14,13 @@
 #org{
     align-self: self-start;
     /*flex-basis: 50px;*/
-    flex-shrink: 1;
+    flex: 2 2 100px ;
 }
 
 #blue{
   /*  flex-basis: 200px;*/
   /*flex-grow:1;*/
-  min-width: 40px;
+  /*min-width: 40px;*/
 flex-shrink: 1;
 }
 
