@@ -3,13 +3,37 @@
     width: 300px;
     background-color: pink;
 
-    animation-name:fontAnimation;
+    animation-name: widthAnimation ;
     animation-duration:2s;
     animation-timing-function: ease-in;
     animation-delay:0;
-    animation-iteration-count: 3;
+    animation: iteration count infinite;
     animation-direction: alternate;
 }
+
+
+@keyframes widthAnimation{
+    from{
+        width: 10px;
+        background-color: green;
+    }
+    to{
+        width: 400px;
+        background-color: blue;
+        border-radius: 50px;
+    }
+}
+
+@keyframes colorAnimation{
+    form{
+        background-color: pink;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+
 @keyframes fontAnimation{
     from{
         font-size: 20px;
