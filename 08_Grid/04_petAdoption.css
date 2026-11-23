@@ -27,5 +27,7 @@ h4{
     justify-content: space-evenly;
 }
 @media (max-width:375px){
-    #pets
+    #pets{
+        flex-wrap: wrap;
+    }
 }
