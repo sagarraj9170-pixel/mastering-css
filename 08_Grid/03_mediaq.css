@@ -23,3 +23,9 @@ div{
         background-color: magenta;
     }
 }
+@media (orientation: landscape){
+    h1{
+        background-color: aqua;
+        color:brown;
+    }
+}
