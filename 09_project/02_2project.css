@@ -9,7 +9,7 @@
     height: 100vh;
     background-size: cover;
 }
-.btn_one{
+.btn_one i{
     color:whitesmoke;
     font-size: 30px;
     font-weight: 700;
@@ -17,6 +17,7 @@
     left: 16px;
     line-height: 60px;
     cursor: pointer;
+    transition: all 0.3s linear;
 }
 .sidebar_menu{  
 position: fixed;
@@ -25,12 +26,14 @@ height: 100vh;
 width: 300px;
 background-color:rgba(255,255 ,255, 0.1);
 box-shadow: 0 0 6px rgba(255, 255,255, 0.5);
+transition: all 0.3s linear;
 }
 .sidebar_menu .logo{
     position: absolute;
     width: 100%;
     line-height: 60px;
-    box-shadow: 0 0 4px rgba(255 255 255 0.5);
+    box-shadow: 0 2px 4px rgba(255 255 255 0.5);
+    height: 90px;
 }
 .sidebar_menu .logo a{
     color: whitesmoke;
@@ -45,8 +48,9 @@ box-shadow: 0 0 6px rgba(255, 255,255, 0.5);
     line-height: 60px;
     position: absolute;
     left:270px ;
-    /*opacity: 0;*/
+    opacity: 0;
     cursor: pointer;
+    transition: all 0.3s linear;
 }
 .sidebar_menu .menu{
     position: absolute;
@@ -99,4 +103,7 @@ box-shadow: 0 0 6px rgba(255, 255,255, 0.5);
  }
   #check:checked ~ .btn_one i{
     opacity: 0;
+  }
+  #check:checked ~.sidebar_menu .btn_two i{
+   opacity: 1; 
   }
