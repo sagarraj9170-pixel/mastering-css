@@ -51,4 +51,35 @@ box-shadow: 0 0 6px rgba(255, 255,255, 0.5);
     width: 100%;
     top: 80px;
 }
-si
+
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 10px 20px;
+}
+.sidebar_menu .menu i ,a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.sidebar_menu .menu i{
+    padding-right:8px ;
+}
+.sidebar_menu .social_media{
+    color: whitesmoke;
+    opacity: 0.5;
+    position: absolute;
+    left: 80px;
+    bottom: 50px;
+
+}
+
+.sidebar_menu .socila_media i{
+    color: whitesmoke;
+    opacity: 0.5;
+    padding:0 5px;
+
+}
+#check{
+    display: none;
+}
